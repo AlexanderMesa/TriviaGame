@@ -1,0 +1,12 @@
+body {
+  background-image: url("../../assets/images/space-background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 1000px;
+  font-size: 40px;
+  color: white;
+  font-family: "Permanent Marker", cursive;
+}
+
+#post-question-page {
+  font-size: 80px;
+}

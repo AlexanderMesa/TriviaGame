@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>Trivia Game</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+  </head>
+
+  <body>
+    <div id="header">Space Trivia Game</div>
+
+    <div id="main-content">
+      <div id="start">Start</div>
+      <div id="question-page">
+        <div id="question"></div>
+        <div class="choice" id="choice0" value="0"></div>
+        <div class="choice" id="choice1" value="1"></div>
+        <div class="choice" id="choice2" value="2"></div>
+        <div class="choice" id="choice3" value="3"></div>
+      </div>
+      <div id="post-question-page"></div>
+      <div id="timer"></div>
+
+      <div class="final-page" id="num-right"></div>
+      <div class="final-page" id="num-wrong"></div>
+      <div class="final-page" id="num-unanswered"></div>
+      <div class="final-page" id="message"></div>
+    </div>
+
+    <!-- jQuery -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"
+    ></script>
+
+    <!-- Javascript File -->
+    <script
+      rel="javascript"
+      type="text/javascript"
+      src="assets/javascript/app.js"
+    ></script>
+  </body>
+</html>
