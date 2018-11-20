@@ -41,6 +41,9 @@ $("#start").on("click", function() {
   //$("#start").attr("disabled", true);
   i = 0;
   timer = 31;
+  numRight = 0;
+  numWrong = 0;
+  numUnanswered = 0;
   $("#start").empty();
   $(".final-page").empty();
   $("#question").text(questionsArray[i]);
